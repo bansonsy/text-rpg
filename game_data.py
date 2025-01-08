@@ -13,9 +13,9 @@ the_hero = {
 }
 
 
-enemies = []
 zombie = {
     "name": "Zombie",
+    "adjective": "fearsome",
     "hp": 10,
     "attack_power": 3,
     "defense": 0,
@@ -32,19 +32,21 @@ zombie = {
 
 goblin = {
     "name": "Goblin",
-    "hp": 10,
-    "attack_power": 3,
-    "defense": 0,
+    "adjective": "meek",
+    "hp": 8,
+    "attack_power": 4,
+    "defense": 1,
     "weapon": "fist",
     "xp_drop": 2,
     "gold_drop": 1,
     "power": {
-        "name": "Berzerk",
-        "effect": "attack_up",
-        "effect_impact": 5,
+        "name": "Call For Help",
+        "effect": "hp_up",
+        "effect_impact": 10,
     },
 }
 
+enemies = [zombie, goblin]
 enemies.append(zombie)
 
 
