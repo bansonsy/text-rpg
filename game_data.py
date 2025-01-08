@@ -5,6 +5,7 @@ the_hero = {
     "gold": 5,  # Amount of money the player has
     "attack_power": 5,
     "defense": 2,
+    "max_hp": 10,  # Reference. Will change when player levels up
     "hp": 10,
     "weapon": "fists",
     "inventory": [
